@@ -1,16 +1,27 @@
-# notes_app
+# Notes App
 
-A new Flutter project.
+## 🚀 Getting Started
 
-## Getting Started
+The Notes App is crafted to assist users in structuring their thoughts effectively and enhancing productivity by organizing ideas, jotting down reminders, and capturing important information seamlessly.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🤳 Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Splash Screen
+- **Duration:** Wait for 5 seconds.
+- **Animation:** Scale Animation logo 
+- **Navigation:** Automatically navigate to `Home Screen`.
+### Notes View
+- **Note Organization:** Showcase all notes created by the user for easy reference and organization.
+- **Note Interaction:** Enable users to `Edit`, `Delete`, or `Add` new notes seamlessly.
+- **System Navigation Save Note:** In this project, we have implemented functionality to save a note when the user navigates back using system navigation `Add Note`.
+## Technologies Used
+- **Hive** `local database`
+- **MVVM** `design pattern`
+- **Cubit** `state management`
+- 
+## 📱 UI
+![UI Notes App](https://github.com/user-attachments/assets/ef90504f-bedf-4b44-85d5-92a39fccbafa)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Dependencies
+![code](https://github.com/user-attachments/assets/6ede4e95-8401-4a4c-a546-f4af16541856)
